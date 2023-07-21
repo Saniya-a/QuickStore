@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+ .topnav {
+    overflow: hidden;
+    background-color: #1A1A1A;
+    width: 1440px;
+    height: 135px;
+ }
+ .logo {
+    position: absolute;
+    width: 211px;
+    height: 96.06px;
+    top: 19.94px; 
+    left: 21px; 
+    }
+#purple { 
+        color: #774ABA;
+        position: absolute;
+        width: 1100.16px;
+        height: 37.89px;
+        font-family: Public Sans;
+        font-size: 35px;
+        line-height: 200px;
+        text-align: right;
+        letter-spacing:0;
+     }
+.icon{
+        position: absolute;
+        left: 63%;
+        right: 39.3%;
+        top: 12.96%;
+        bottom: 16.13%;
+    }
+ .sidenav { 
+      overflow:hidden;
+      opacity:1;
+      width:304px;
+      height:889px;
+      position:absolute;
+	    font-family:Roboto;
+   	  text-align:left;
+	    letter-spacing:0;
+	    line-height:undefined;
+ }
+ .sidenav a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  color:rgba(243.31249594688416, 243.31249594688416, 243.31249594688416, 1);
+  display: block;
+}
+ #box { 
+	background-color:rgba(52.06249974668026, 52.06249974668026, 52.06249974668026, 1);
+	opacity:1;
+	width:230px;
+	height:889px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#sbox { 
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	border:1px solid rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 270px;
+    top:200px;
+	width:950px;
+	height:128px;
+}
+.head {
+  position: absolute;
+  left: 20%;
+  font-size: larger;
+  top: 25%;
+}
+
+#c123 { 
+	color:rgba(83.19374665617943, 83.19374665617943, 114.74999696016312, 1);
+	position: relative;
+  width:312px;
+  top: 250px;
+  left: 185px;
+	font-family:Bookman Old Style;
+	text-align:left;
+	font-size:11px;
+	letter-spacing:0;
+}
+.trends {
+  position: absolute;
+  width: 159px;
+  height: 112px;
+  left: 275px;
+  top: 205px;
+}
+.bttn {
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  position: relative;
+  left: 1050px;
+  top: 63px;
+  cursor: pointer;
+}
+
+.bttn:hover {
+  background-color: RoyalBlue;
+}
+#store { 
+	color: rgb(139, 63, 0);
+	width:221px;
+  position: absolute;
+	height:31px;
+  left: 430px;
+  top: 220px;
+	font-family:Red Rose;
+	text-align:left;
+	font-size:22px;
+	letter-spacing:0;
+}

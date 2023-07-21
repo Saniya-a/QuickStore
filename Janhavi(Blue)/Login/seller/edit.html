@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="edit.css">
+    <title>editshop</title>
+</head>
+<body>
+<div class="topnav">
+    <nav>
+        <div class="logo">
+          <img class="" src="pictures/Logo.svg" alt="" />
+        </div>
+        <span id="purple">Welcome, Seller</span>
+        <div class="icon">
+            <img src="pictures/Account Icon.svg" alt="" />
+        </div>
+</div>
+<h3>Add/Edit Shop</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Shop Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Category</label>
+    <input type="text" id="lname" name="lastname">
+    <label for="lname">Add Logo</label>
+    <br><form action="/action_page.php">
+    <input type="file" id="myFile" name="filename">
+    </form>
+    <br><label for="subject">Description</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Save">
+  </form>
+</div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCaD18xDVTkDDaGuteqN-fWqzdUrayWLv4",
+    authDomain: "quick-store1.firebaseapp.com",
+    databaseURL: "https://quick-store1-default-rtdb.firebaseio.com",
+    projectId: "quick-store1",
+    storageBucket: "quick-store1.appspot.com",
+    messagingSenderId: "944657360865",
+    appId: "1:944657360865:web:54d85be2b6de45b7db14a0",
+    measurementId: "G-TEN4CFCMQN"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="e.js"></script>
+</body>
+</html>

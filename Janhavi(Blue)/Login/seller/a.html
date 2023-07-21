@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="a.css">
+    <title>adddeleteproduct</title>
+</head>
+<div class="topnav">
+  <nav>
+      <div class="logo">
+        <img class="" src="pictures/Logo.svg" alt="" />
+      </div>
+      <span id="purple">Welcome, Seller</span>
+      <div class="icon">
+          <img src="pictures/Account Icon.svg" alt="" />
+      </div>
+</div>
+<div class="sidenav">
+  <div id="box">
+      <a href="shop.html">Add\Delete Shop</a>
+      <hr style="color: '#FF0000';">
+      <a href="a.html">Add\Delete Products</a>
+      <hr style="color: '#FF0000';">
+      <a href="manageorders.html">View\Manage Orders</a>
+      <hr style="color: '#FF0000';">
+</div>
+</div>
+<div class="ord">
+<h2>My Products:</h2>
+</div>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by date.." title="Type in a date">
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>Product image</th>
+      <th>Product details</th>
+      <th>PRICE</th>
+      <th>Delete product</th>
+      <th>Edit product</th>
+    </tr>
+    <tr>
+      <td><img src="pictures/dress 1.svg" alt="dress" width="60" height="60"></td>
+      <td>Sample,green dress</td>
+      <td>Rs.500</td>
+      <td><button class="del"><i class="fa fa-trash"></i></button></td>
+      <td><a href="editproduct/e.html" button class="btn"> Edit </button></a></td>
+    </tr>
+    <tr>
+      <td><img src="pictures/dress 1.svg" alt="dress" width="60" height="60"></td>
+      <td>Sample,green dress</td>
+      <td>Rs.500</td>
+      <td><button class="del"><i class="fa fa-trash"></i></button></td>
+      <td><a href="editproduct/e.html" button class="btn"> Edit </button></a></td>
+    </tr>
+     <tr>
+      <td><img src="pictures/dress 1.svg" alt="dress" width="60" height="60"></td>
+      <td>Sample,green dress</td>
+      <td>Rs.500</td>
+      <td><button class="del"><i class="fa fa-trash"></i></button></td>
+      <td><a href="editproduct/e.html" button class="btn"> Edit </button></a></td>
+    </tr>
+  </table>
+  <a href="edit.html" button class="bttn"><i class="fa fa-plus"></i> Add New Product </a></button>
+</div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<script src="a.js"></script>
+
+
+</html>

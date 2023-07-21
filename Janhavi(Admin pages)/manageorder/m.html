@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="m.js"></script>
+    <title>orders</title>
+</head>
+<body>
+<div class="topnav">
+    <nav>
+        <div class="logo">
+          <img class="" src="pictures/Logo.svg" alt="" />
+        </div>
+        <span id="purple">Welcome, Admin</span>
+        <div class="icon">
+            <img src="pictures/Account Icon.svg" alt="" />
+        </div>
+</div>
+<div class="sidenav">
+    <div id="box">
+        <a href="#Add\Delete Shop">Manage  Shops</a>
+        <a href="#Add\Delete Products"> Manage  Products</a>
+        <a href="#View\Manage Orders"> Manage  Orders</a>
+  </div>
+</div>
+<div class="ord">
+<h2>Orders And Their Info:</h2>
+</div>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by store name..." title="search">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:40%;">Store</th>
+    <th style="width:40%;">Customer</th>
+    <th style="width:50%;">Ordered on</th>
+    <th style="width:40%;">Status</th>
+  </tr>
+  <tr>
+    <td>Arihant Stores</td>
+    <td>Arjit Singh</td>
+    <td>Nov 01,2020</td>
+    <td>Pending</td>
+  </tr>
+  <tr>
+    <td>Vijay Sales</td>
+    <td>Sam Smith</td>
+    <td>Nov 25,2020</td>
+    <td>Cancelled</td>
+  </tr>
+  <tr>
+    <td>Arihant Stores</td>
+    <td>Arjit Singh</td>
+    <td>Nov 01,2020</td>
+    <td>Approved</td>
+  </tr>
+  <tr>
+    <td>Arihant Stores</td>
+    <td>Arjit Singh</td>
+    <td>Nov 01,2020</td>
+    <td>Pending</td>
+  </tr>
+  <tr>
+    <td>Arihant Stores</td>
+    <td>Arjit Singh</td>
+    <td>Nov 01,2020</td>
+    <td>Delivered</td>
+  </tr>
+</table>
+<script>
+    function myFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+    </script>
