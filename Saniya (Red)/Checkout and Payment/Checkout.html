@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Checkout.css">
+    <title>Checkout</title>
+</head>
+<body>
+	<!--Top-->
+	<div class="topnav">
+		<div class = "logo">
+			<a href="homepage.html">><img class="" src="pictures/Logo.svg" alt="Logo" /></a>
+		</div>
+		<nav>
+			<ul>
+				<li>Select Order</li>
+				<li>Place Order</li>
+				<li>Delivery & Payment</li>
+				<li id="text">Complete Payment</li>
+				
+			</ul>
+		
+		</nav>
+		<div class="line"></div>
+	</div>
+<!-----------------------Payment Method-------------------------------->
+
+	<div class ="Head">
+		<h1>Select Payment Method</h1>
+	</div>
+	<div class="box">
+		<ul>
+			<li class="choice-1">
+			<input type="radio" name="payment" id="one">
+			<label for="one">Add Debit/ Credit or ATM Card</label>
+			<div class="text">Currently not available</div>
+			<div class="check"></div>
+		    </li>
+			<li class="choice-2">
+			<input type="radio" name="payment" id="two">
+			<label for="two">UPI Pyment</label>
+			<div class="text">Currently not available</div>
+			<div class="check"></div>
+		    </li>
+			<li class="choice-3" >
+			<input type="radio" name="payment" id="three" checked>
+			<label for="three">Cash On Delivery</label>
+			<div class="check"></div>
+		    </li>
+		</ul>	
+		</div>
+	<!-----------------------Address-------------------------------->
+	<div class="Addbox">
+		<div class="add">
+			<h1 class="head">Address</h1>
+		</div>
+		<form>
+			<textarea name="Address" placeholder="Write your Address."></textarea>
+		</form>
+		
+	</div>
+
+<!-----------------------Back to Cart-------------------------------->
+	<div class="Backbox">
+		<div class="Back">
+			<p class="msg">
+				Review the order once again before going forward.
+			</p>
+		</div>
+		<a href="cart.html" class="btn">Continue</a>
+	</div>
+	
+
+
+<!-----------------------Complete Payment-------------------------------->
+	<div class="compbox">
+		<div class="comp">
+			<p class="msg">
+				Continue with the order
+			</p>
+
+		</div>
+		<a href="Endpage.html" class="btn">Continue</a>
+	</div>
+
+	
+<!-----------------------Footer-------------------------------->
+	<div class="footer">
+		
+			<div class="row">
+				<div class="col-2">
+					<p>About</p>
+					<p>About us</p>
+				</div>
+				<div class="col-2">
+					<p>Contact</p>
+					<p>Contact us</p>
+				</div>
+
+			</div>
+		
+	</div>
+
+</body>
+</html>

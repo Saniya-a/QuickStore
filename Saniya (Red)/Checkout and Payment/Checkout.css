@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    
+}
+/* Top*/
+.topnav {
+    overflow: hidden;
+    background-color: #1A1A1A;
+    width: 1536px;
+    height: 135px;
+}
+.logo {
+    position: absolute;
+    width: 211px;
+    height: 96.06px;
+    top: 19.94px; 
+    left: 21px; 
+}
+nav{
+    flex: 1;
+    text-align: left;
+    padding-left: 180px;
+    padding-top: 50px;
+
+   
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    color: #7848BD;
+}
+#text{
+    color: #7848BD; 
+    opacity: 0.5;
+}
+.line{
+    position: absolute;
+    left: 18.00%;
+    right: 18.06%;
+    top: 10.16%;
+    bottom: 89.84%;
+    display: block;
+    border-top: 2px solid #1655B1;
+}
+
+/*Methof of payment*/
+.Head{
+    position: absolute;
+    left: 90px;
+    top: 169px;
+
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+
+    color: #000000;
+
+}
+
+.box{
+position: absolute;
+width: 1353px;
+height: 402px;
+left: 107px;
+top: 273px;
+
+background: #FFFFFF;
+
+}
+
+.choice-1{
+ position: absolute;
+width: 1353px;
+height: 134px;
+
+background: #E5E5E5;
+border: 1px solid #9B9797;
+box-sizing: border-box;
+
+}
+.choice-2{
+    position: absolute;
+width: 1353px;
+height: 134px;
+
+top: 134px;
+
+background: #E5E5E5;
+border: 1px solid #9B9797;
+box-sizing: border-box;
+}
+.choice-3{
+    position: absolute;
+width: 1353px;
+height: 134px;
+
+top: 268px;
+
+background: #FFFFFF;
+border: 1px solid #9B9797;
+box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+    padding-top: 37px;
+    padding-left: 50px;
+}
+
+label{
+font-family: Public Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 42px;
+color: #000000;
+
+}
+
+.text{
+font-family: Public Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+padding-left: 20px;
+color: #000000;
+opacity: 50%;
+}
+[type ="radio"]{
+    opacity: 0;
+}
+
+[type ="radio"] + lable{
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+[type ="radio"] + label::before{
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #9B9797;
+    
+}
+
+
+[type ="radio"]:checked + label::after{
+    content: "";
+    position: absolute;
+    left: 43px;
+    top: 53px;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background:#9B9797;
+    
+}
+
+
+
+/*Address*/
+.Addbox{
+    position: absolute;
+width: 661px;
+height: 316px;
+left: 107px;
+top: 709px;
+
+background: #FFFFFF;
+border: 1px solid #A29C9C;
+box-sizing: border-box;
+border-radius: 12px;
+}
+
+.head{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+/*************Back to cart**********************/
+.Backbox{
+    position: absolute;
+width: 661px;
+height: 140px;
+left: 799px;
+top: 709px;
+text-align: center;s
+background: #FFFFFF;
+border: 1px solid #A29C9C;
+box-sizing: border-box;
+border-radius: 12px;
+
+}
+textarea{
+    height: 200px;
+    resize: none;
+    margin: 28px 25px;
+    width: 610px;
+    border: 2px solid #A29C9C;
+    border-radius: 12px;
+    outline: none;
+    padding: 20px 20px;
+
+}
+
+textarea:focus{
+    box-shadow: 0 0 4px #7848BD;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 45px;
+
+    color: #000000;
+
+}
+
+
+/*************Complete payment**********************/
+.compbox{
+    position: absolute;
+width: 661px;
+height: 142px;
+left: 799px;
+top: 883px;
+text-align: center;
+background: #FFFFFF;
+border: 1px solid #A29C9C;
+box-sizing: border-box;
+border-radius: 12px;
+}
+
+.msg{
+    font-family: Public Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+padding-top: 20px;
+color: rgba(0, 0, 0, 0.46);
+
+}
+
+.btn{
+    display: inline-block;
+    height: 59px;
+    width: 170px;
+    text-align: center;
+    background: #1655B1;
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 12px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+/*-----------------------Footer--------------------------------*/
+
+
+
+
+.footer{
+    position: absolute;
+    top: 150%;
+    width: 100%;
+    background: #1655B1;
+    padding: 10px;
+
+
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer p{
+    font-size: 20px;
+    color: #FFFFFF;
+
+}

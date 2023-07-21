@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    
+}
+/* Top*/
+.topnav {
+    overflow: hidden;
+    background-color: #1A1A1A;
+    width: 1529px;
+    height: 135px;
+}
+.logo {
+    position: absolute;
+    width: 211px;
+    height: 96.06px;
+    top: 19.94px; 
+    left: 21px; 
+}
+nav{
+    flex: 1;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    top: 28px;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    color: #774ABA;
+
+
+
+}
+nav ul li{
+    display: inline-block;
+
+
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 42px;
+    padding-right: 30px;
+
+
+}
+
+
+.icon{
+    display: inline-block;
+    height: 47.5px;
+    width: 50.52px;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: #774ABA;
+}
+/*------------------------------Product Detail-----------------------------*/
+.row{
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-1{
+    flex-basis: 50%;
+    min-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.box{
+    margin-top: 80px;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.box .col-1 img{
+    padding: 0;
+    width: 80%;
+}
+.box .col-1{
+    padding: 20px;
+}
+.box h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.box select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.box input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #1655B1;
+}
+input: focus{
+    outline: none;
+}
+
+.btn{
+    display: inline-block;
+    background:#1655B1; 
+    color:#FFFFFF;
+    padding:8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.box li{
+    list-style-type: none;
+}
+
+/*-----------------Footer--------------------*/
+
+.footer{
+    background: #1655B1;
+    padding: 10px;
+    
+}
+
+.footer p{
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
