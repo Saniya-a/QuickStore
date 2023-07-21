@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+ .topnav {
+    overflow: hidden;
+    background-color: #1A1A1A;
+    width: 1518px;
+    height: 135px;
+ }
+
+ .logo {
+    position: absolute;
+    width: 211px;
+    height: 96.06px;
+    top: 19.94px; 
+    left: 21px; 
+    }
+
+#purple { 
+        color: #774ABA;
+        position: absolute;
+        width: 1100.16px;
+        height: 37.89px;
+        font-family: Public Sans;
+        font-size: 35px;
+        line-height: 200px;
+        text-align: right;
+        letter-spacing:0;
+        left: 20%;
+     }
+
+.icon{
+      position: absolute;
+      left: 72%;
+      right: 39.3%;
+      top: 10%;
+      bottom: 16.13%;
+    }
+
+ .sidenav { 
+      overflow:hidden;
+      opacity:1;
+      width:304px;
+      height:889px;
+      position:absolute;
+	    font-family:Roboto;
+   	  text-align:left;
+	    letter-spacing:0;
+	    line-height:undefined;
+ }
+
+ .sidenav a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  color:rgba(243.31249594688416, 243.31249594688416, 243.31249594688416, 1);
+  display: block;
+}
+
+.sidenav img{
+  position: absolute;
+  width: 6px;
+  height: 48.5px;
+  left: 0px;
+  top: 97px;
+  
+  background: #F3F3F3;
+}   
+
+ #box { 
+	background-color:rgba(52.06249974668026, 52.06249974668026, 52.06249974668026, 1);
+	opacity:1;
+	width:230px;
+	height:889px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 70%;
+  left: 20%;
+  top: 35%;
+  position: absolute;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 70%;
+  position: absolute;
+  left: 20%;
+  top: 45%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.ord {
+  position: absolute;
+  left: 20%;
+  font-size: larger;
+  top: 25%;
+}
